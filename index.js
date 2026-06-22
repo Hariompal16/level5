@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send("Hello World! I am hariom pal ");
+  res.send("Hello World! I am hariom pal ,cicd was implemented successfully");
 });
 
 app.listen(5000, () => {
